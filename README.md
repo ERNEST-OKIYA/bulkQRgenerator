@@ -2,10 +2,17 @@
 
 1. Set up your python environment
 
-2. Clone this project to your environment
+2. Clone this project to your environment: 
+        
+        git clone git@github.com:ERNEST-OKIYA/bulkQRgenerator.git
 
-3. Install requirements.txt
+3. Pip install Install requirements.txt
 
-4. Upload your .xlsx file and edit init.py file to suite your needs
+        pip install -r requirements.txt
+
+4. Upload your .xlsx file inside your project and edit init.py file to suite your needs
+
 
 5. Run the init.py
+
+        python init.py
