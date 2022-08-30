@@ -7,12 +7,12 @@ wb = load_workbook("02.xlsx")
 #Add the sheet name
 sheet_info = wb['juja']
 
-#qr_gen function is responsible for generating QR codes with MEMCard formate
+#qr_gen function is responsible for generating QR codes with MEMCard format
 def qr_gen(Filename = None, Name = None, Phonenumber = None, RM = None) :
     qFilename   = "FILENAME: " + str(Filename)
     qName    = "NAME: " + str(Name)
     
-    img = qrcode.make(f"MECARD:N:{Name};TEL:{Phonenumber};RM:{RM};fName:{Filename};;")
+    img = qrcode.make(f"QR Code Number:{Filename}; Full Name:{Name}; Phone Number:{Phonenumber}; Relationship Manager:{RM};")
     type(img)
     img.save(f"qrfiles/{Filename}.png")
 
