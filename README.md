@@ -1,6 +1,11 @@
-# Bulky_QRcode_Generator
-It's quite a simple and easy program to generate bulk QR Code from an excel sheet.
+# Bulk_QR_Generator
 
-- [ ] If you like to use this program, you need to install two dependencies for execution.
-1. qrcode
-2. openpyxl
+1. Set up your python environment
+
+2. Clone this project to your environment
+
+3. Install requirements.txt
+
+4. Upload your .xlsx file and edit init.py file to suite your needs
+
+5. Run the init.py
